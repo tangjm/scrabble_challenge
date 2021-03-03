@@ -17,7 +17,7 @@ describe("Scrabble", function() {
   })
 
   it('returns 0 for nil', function() {
-    scrabble = new Scrabble(nil)
+    scrabble = new Scrabble(null)
 
     expect(scrabble.score()).toEqual(0)
   })
